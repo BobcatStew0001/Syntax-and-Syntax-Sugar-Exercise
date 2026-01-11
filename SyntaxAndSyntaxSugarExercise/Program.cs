@@ -4,11 +4,9 @@
     {
         static void Main(string[] args)
         {
-            int answer = 4; //Inferred Typing: The variables are defined as an integer and string
-            string response;
+            var answer = 4; //Inferred Typing: The variables are defined as an integer and string
 
-
-            response = answer < 9 ? "less than nine" : "greater than nine"; //ternary operator 
+            var response = answer < 9 ? "less than nine" : "greater than nine"; //ternary operator 
             Console.WriteLine($" The answer is {response}"); //string interpolation 
 
             answer = 10; //Changed the value of variable "answer" for testing 
